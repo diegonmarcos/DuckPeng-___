@@ -1,0 +1,29 @@
+{
+  "_doc": "Registry of the DuckPeng project (DuckPeng, master index). A SUBSET of repo_master/repos.json (git-repos-master), narrowed to DuckPeng project (the CG hub, the cloud hub and Leaf.y). Identical name/url/private/doc fields to that superset; the two must not disagree. This repo is an INDEX, not a container - see clone.sh for the clone/link model. Private members are linked only: the index exposes their name, never their content.",
+  "_schema": "front-repos/v1",
+  "base_dir_doc": "Clones live outside this index, as siblings in $CLOUD_GIT_BASE (default ~/git). This repo holds only committed symlinks pointing at them.",
+  "base_dir_default": "~/git",
+  "_visibility_doc": "private:true repos require SSH access configured for this GitHub account to clone.",
+  "groups": {},
+  "repos": [
+    {
+      "name": "CG",
+      "url": "git@github.com:diegonmarcos/CG.git",
+      "private": false,
+      "doc": "Project master for the CG family (CG-circus, CG-galaxy, CG-galaxy-gaia, CG-unity, CG-voxel-rust): its own repos.json subset plus committed symlinks, same model as front, cloud and lecole-42. Created 2026-10-26 (#1204)."
+    },
+    {
+      "name": "cloud",
+      "url": "git@github.com:diegonmarcos/cloud.git",
+      "private": false,
+      "doc": "Project master for the cloud project: a repos.json subset of this file plus committed symlinks. Had a symlink here but no entry until 2026-08-20 — the drift that made `ls a_cloud/` disagree with `--list`."
+    },
+    {
+      "name": "DuckPeng-LeafY",
+      "url": "git@github.com:diegonmarcos/DuckPeng-LeafY.git",
+      "private": false,
+      "doc": "Leaf.y company site (published at /leafy/), moved from front-endeavours a_Companies/leafy (#1224); front-endeavours keeps a symlink to this repo."
+    }
+  ],
+  "_root_doc": "No entries carry a group field - every member links at the root of this index, same as CG and front."
+}
