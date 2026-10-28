@@ -7,14 +7,14 @@
   "groups": {},
   "repos": [
     {
-      "name": "CG___",
-      "url": "git@github.com:diegonmarcos/CG___.git",
+      "name": "CG-___",
+      "url": "git@github.com:diegonmarcos/CG-___.git",
       "private": false,
       "doc": "Project master for the CG family (CG-circus, CG-galaxy, CG-galaxy-gaia, CG-unity, CG-voxel-rust): its own repos.json subset plus committed symlinks, same model as front, cloud and lecole-42. Created 2026-10-26 (#1204)."
     },
     {
-      "name": "cloud___",
-      "url": "git@github.com:diegonmarcos/cloud___.git",
+      "name": "cloud-___",
+      "url": "git@github.com:diegonmarcos/cloud-___.git",
       "private": false,
       "doc": "Project master for the cloud project: a repos.json subset of this file plus committed symlinks. Had a symlink here but no entry until 2026-08-20 — the drift that made `ls a_cloud/` disagree with `--list`."
     }

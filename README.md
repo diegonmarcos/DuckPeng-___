@@ -1,11 +1,11 @@
-# DuckPeng___
+# DuckPeng-___
 
-Registry index for the DuckPeng project (the CG hub and the cloud hub) - same model as `CG___`, `Projects___` and `cloud___`. This repo is an INDEX, not a container: it holds `repos.json` (the registry, a subset of _git-repos-master/repos.json), `clone.sh` (pick which repos to have locally) and one committed relative symlink per member (`<member> -> ../<member>`); the actual clones live as siblings in `~/git/`.
+Registry index for the DuckPeng project (the CG hub and the cloud hub) - same model as `CG-___`, `Projects-___` and `cloud-___`. This repo is an INDEX, not a container: it holds `repos.json` (the registry, a subset of _git-repos-master/repos.json), `clone.sh` (pick which repos to have locally) and one committed relative symlink per member (`<member> -> ../<member>`); the actual clones live as siblings in `~/git/`.
 
 ## Members
 
-- [CG](https://github.com/diegonmarcos/CG___) - Project master for the CG family (CG-circus, CG-galaxy, CG-galaxy-gaia, CG-unity, CG-voxel-rust): its own repos.json subset plus committed symlinks, same model as front, cloud and lecole-42. Created 2026-10-26 (#1204).
-- [cloud](https://github.com/diegonmarcos/cloud___) - Project master for the cloud project: a repos.json subset of this file plus committed symlinks. Had a symlink here but no entry until 2026-08-20 — the drift that made `ls a_cloud/` disagree with `--list`.
+- [CG](https://github.com/diegonmarcos/CG-___) - Project master for the CG family (CG-circus, CG-galaxy, CG-galaxy-gaia, CG-unity, CG-voxel-rust): its own repos.json subset plus committed symlinks, same model as front, cloud and lecole-42. Created 2026-10-26 (#1204).
+- [cloud](https://github.com/diegonmarcos/cloud-___) - Project master for the cloud project: a repos.json subset of this file plus committed symlinks. Had a symlink here but no entry until 2026-08-20 — the drift that made `ls a_cloud/` disagree with `--list`.
 
 ## Usage
 
