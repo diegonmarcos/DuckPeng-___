@@ -1,0 +1,49 @@
+{
+  "schema": "readme-node/v1",
+  "generated_by": "_git-repos-master readme-render.js nodeData() from projects-repos.json; DO NOT EDIT (node repos-sot.js sync-readmes)",
+  "name": "DuckPeng-___",
+  "label": "DuckPeng-___",
+  "code": "6.3.0",
+  "kind": "hub",
+  "description": "DuckPeng — hub: CG, Cloud and LeafY",
+  "visibility": "public",
+  "url": "https://github.com/diegonmarcos/DuckPeng-___",
+  "developer": "Leaf.y",
+  "farm": "6.Projects/DuckPeng",
+  "breadcrumb": [
+    {
+      "code": "6",
+      "kind": "area",
+      "label": "Projects",
+      "icon": "🎨"
+    },
+    {
+      "code": "6.3",
+      "kind": "project",
+      "label": "DuckPeng",
+      "icon": "🦆"
+    }
+  ],
+  "hub": {
+    "name": "Projects-___",
+    "code": "6.0",
+    "url": "https://github.com/diegonmarcos/Projects-___"
+  },
+  "base_dir": "git",
+  "members": [],
+  "tree": [
+    "├── .claude/",
+    "│   ├── agents/",
+    "│   ├── hooks/",
+    "│   │   └── c3/",
+    "│   └── skills/",
+    "│       └── c3-infra/",
+    "├── .githooks/",
+    "├── .github/",
+    "│   └── workflows/",
+    "├── .obsidian/",
+    "├── .vscode/",
+    "└── 0_hub/",
+    "    └── Projects-___ (submodule)"
+  ]
+}
