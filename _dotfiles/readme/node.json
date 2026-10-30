@@ -3,7 +3,7 @@
   "generated_by": "_git-repos-master readme-render.js nodeData() from projects-repos.json; DO NOT EDIT (node repos-sot.js sync-readmes)",
   "name": "DuckPeng-___",
   "label": "DuckPeng-___",
-  "code": "6.3.0",
+  "code": "6.2.0",
   "kind": "hub",
   "variant": "hub",
   "description": "DuckPeng — hub: CG, Cloud and LeafY",
@@ -19,7 +19,7 @@
       "icon": "🎨"
     },
     {
-      "code": "6.3",
+      "code": "6.2",
       "kind": "project",
       "label": "DuckPeng",
       "icon": "🦆"
